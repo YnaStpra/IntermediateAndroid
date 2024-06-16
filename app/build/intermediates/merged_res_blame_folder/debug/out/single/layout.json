@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/activity_welcome.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/activity_detail_story.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_detail_story.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/item_story.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/activity_login.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/activity_upload.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_upload.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/activity_maps.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/item_loading.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/item_loading.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-mergeDebugResources-48:/layout/activity_register.xml",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_register.xml"
+    }
+]

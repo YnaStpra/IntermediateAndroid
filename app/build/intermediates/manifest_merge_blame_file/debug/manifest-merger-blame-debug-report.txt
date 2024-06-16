@@ -1,0 +1,276 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yan.storyappmap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:6:22-78
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:8:5-60
+14-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:8:19-57
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:10:5-65
+16-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:11:5-67
+17-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:11:22-64
+18    <uses-permission
+18-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:12:5-14:38
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:13:9-65
+20        android:maxSdkVersion="28" />
+20-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:14:9-35
+21
+22    <!-- Include required permissions for Google Maps API to run. -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+28
+29    <queries>
+29-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+30
+31        <!-- Needs to be explicitly declared on Android R+ -->
+32        <package android:name="com.google.android.apps.maps" />
+32-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+32-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+33    </queries>
+34
+35    <permission
+35-->[androidx.core:core:1.12.0] /Users/yansaputra/.gradle/caches/transforms-3/fd29004f3283ccf4203474ffc79e3e84/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+36        android:name="com.yan.storyappmap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.12.0] /Users/yansaputra/.gradle/caches/transforms-3/fd29004f3283ccf4203474ffc79e3e84/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.12.0] /Users/yansaputra/.gradle/caches/transforms-3/fd29004f3283ccf4203474ffc79e3e84/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.yan.storyappmap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.12.0] /Users/yansaputra/.gradle/caches/transforms-3/fd29004f3283ccf4203474ffc79e3e84/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.12.0] /Users/yansaputra/.gradle/caches/transforms-3/fd29004f3283ccf4203474ffc79e3e84/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:16:5-68:19
+42        android:allowBackup="true"
+42-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:17:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.12.0] /Users/yansaputra/.gradle/caches/transforms-3/fd29004f3283ccf4203474ffc79e3e84/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+44        android:dataExtractionRules="@xml/data_extraction_rules"
+44-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:18:9-65
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:fullBackupContent="@xml/backup_rules"
+47-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:19:9-54
+48        android:icon="@drawable/dicoding1"
+48-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:20:9-43
+49        android:label="@string/app_name"
+49-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:21:9-41
+50        android:roundIcon="@drawable/dicoding1"
+50-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:22:9-48
+51        android:supportsRtl="true"
+51-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:23:9-35
+52        android:testOnly="true"
+53        android:theme="@style/Theme.StoryApp" >
+53-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:24:9-46
+54        <meta-data
+54-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:27:9-29:71
+55            android:name="com.google.android.geo.API_KEY"
+55-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:28:13-58
+56            android:value="AIzaSyC3U4-FTh4bEcQs-gWgoqyVMGUrgd-r1nk" />
+56-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:29:13-68
+57
+58        <activity
+58-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:31:9-33:39
+59            android:name="com.yan.storyapp.view.activity.MapsActivity"
+59-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:32:13-71
+60            android:exported="false" />
+60-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:33:13-37
+61        <activity
+61-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:34:9-36:40
+62            android:name="com.yan.storyapp.view.activity.DetailStoryActivity"
+62-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:35:13-78
+63            android:exported="false" />
+63-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:36:13-37
+64        <activity
+64-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:37:9-39:40
+65            android:name="com.yan.storyapp.view.activity.UploadActivity"
+65-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:38:13-73
+66            android:exported="false" />
+66-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:39:13-37
+67        <activity
+67-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:40:9-42:40
+68            android:name="com.yan.storyapp.view.activity.WelcomeActivity"
+68-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:41:13-74
+69            android:exported="false" />
+69-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:42:13-37
+70        <activity
+70-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:43:9-45:40
+71            android:name="com.yan.storyapp.view.activity.RegisterActivity"
+71-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:44:13-75
+72            android:exported="false" />
+72-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:45:13-37
+73        <activity
+73-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:46:9-48:40
+74            android:name="com.yan.storyapp.view.activity.LoginActivity"
+74-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:47:13-72
+75            android:exported="false" />
+75-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:48:13-37
+76        <activity
+76-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:49:9-57:20
+77            android:name="com.yan.storyapp.view.activity.MainActivity"
+77-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:50:13-71
+78            android:exported="true" >
+78-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:51:13-36
+79            <intent-filter>
+79-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:52:13-56:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:53:17-69
+80-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:53:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:55:17-77
+82-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:55:27-74
+83            </intent-filter>
+84        </activity>
+85
+86        <provider
+87            android:name="androidx.core.content.FileProvider"
+87-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:60:13-62
+88            android:authorities="com.yan.storyappmap.fileprovider"
+88-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:61:13-64
+89            android:exported="false"
+89-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:62:13-37
+90            android:grantUriPermissions="true" >
+90-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:63:13-47
+91            <meta-data
+91-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:64:13-66:54
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:65:17-67
+93                android:resource="@xml/file_paths" />
+93-->/Users/yansaputra/AndroidStudioProjects/StoryAppMap/app/src/main/AndroidManifest.xml:66:17-51
+94        </provider>
+95        <!-- Needs to be explicitly declared on P+ -->
+96        <uses-library
+96-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+97            android:name="org.apache.http.legacy"
+97-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+98            android:required="false" />
+98-->[com.google.android.gms:play-services-maps:18.2.0] /Users/yansaputra/.gradle/caches/transforms-3/2e6d39e8ef67d39bd8b6536963b834cb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:18.0.1] /Users/yansaputra/.gradle/caches/transforms-3/1d6b034e1d3f3cdd7137da99fcc8b412/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:18.0.1] /Users/yansaputra/.gradle/caches/transforms-3/1d6b034e1d3f3cdd7137da99fcc8b412/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:18.0.1] /Users/yansaputra/.gradle/caches/transforms-3/1d6b034e1d3f3cdd7137da99fcc8b412/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:18.0.1] /Users/yansaputra/.gradle/caches/transforms-3/1d6b034e1d3f3cdd7137da99fcc8b412/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:18.0.0] /Users/yansaputra/.gradle/caches/transforms-3/20b572afa3b9c85e40f3270fb237e41d/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:18.0.0] /Users/yansaputra/.gradle/caches/transforms-3/20b572afa3b9c85e40f3270fb237e41d/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:18.0.0] /Users/yansaputra/.gradle/caches/transforms-3/20b572afa3b9c85e40f3270fb237e41d/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+108
+109        <service
+109-->[androidx.camera:camera-camera2:1.2.3] /Users/yansaputra/.gradle/caches/transforms-3/7334b059298d823cfff959a2f963e86c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
+110            android:name="androidx.camera.core.impl.MetadataHolderService"
+110-->[androidx.camera:camera-camera2:1.2.3] /Users/yansaputra/.gradle/caches/transforms-3/7334b059298d823cfff959a2f963e86c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
+111            android:enabled="false"
+111-->[androidx.camera:camera-camera2:1.2.3] /Users/yansaputra/.gradle/caches/transforms-3/7334b059298d823cfff959a2f963e86c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
+112            android:exported="false" >
+112-->[androidx.camera:camera-camera2:1.2.3] /Users/yansaputra/.gradle/caches/transforms-3/7334b059298d823cfff959a2f963e86c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
+113            <meta-data
+113-->[androidx.camera:camera-camera2:1.2.3] /Users/yansaputra/.gradle/caches/transforms-3/7334b059298d823cfff959a2f963e86c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
+114                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+114-->[androidx.camera:camera-camera2:1.2.3] /Users/yansaputra/.gradle/caches/transforms-3/7334b059298d823cfff959a2f963e86c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
+115                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+115-->[androidx.camera:camera-camera2:1.2.3] /Users/yansaputra/.gradle/caches/transforms-3/7334b059298d823cfff959a2f963e86c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
+116        </service>
+117
+118        <provider
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/yansaputra/.gradle/caches/transforms-3/6033d48a1129e06d79e8b24e1f87f334/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+119            android:name="androidx.startup.InitializationProvider"
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/yansaputra/.gradle/caches/transforms-3/6033d48a1129e06d79e8b24e1f87f334/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+120            android:authorities="com.yan.storyappmap.androidx-startup"
+120-->[androidx.emoji2:emoji2:1.2.0] /Users/yansaputra/.gradle/caches/transforms-3/6033d48a1129e06d79e8b24e1f87f334/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+121            android:exported="false" >
+121-->[androidx.emoji2:emoji2:1.2.0] /Users/yansaputra/.gradle/caches/transforms-3/6033d48a1129e06d79e8b24e1f87f334/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+122            <meta-data
+122-->[androidx.emoji2:emoji2:1.2.0] /Users/yansaputra/.gradle/caches/transforms-3/6033d48a1129e06d79e8b24e1f87f334/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+123-->[androidx.emoji2:emoji2:1.2.0] /Users/yansaputra/.gradle/caches/transforms-3/6033d48a1129e06d79e8b24e1f87f334/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+124                android:value="androidx.startup" />
+124-->[androidx.emoji2:emoji2:1.2.0] /Users/yansaputra/.gradle/caches/transforms-3/6033d48a1129e06d79e8b24e1f87f334/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+125            <meta-data
+125-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/yansaputra/.gradle/caches/transforms-3/962effedc7031efb0913462a59cecd1a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+126-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/yansaputra/.gradle/caches/transforms-3/962effedc7031efb0913462a59cecd1a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+127                android:value="androidx.startup" />
+127-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/yansaputra/.gradle/caches/transforms-3/962effedc7031efb0913462a59cecd1a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+128            <meta-data
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+130                android:value="androidx.startup" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+131        </provider>
+132
+133        <receiver
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+134            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+135            android:directBootAware="false"
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+136            android:enabled="true"
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+137            android:exported="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+138            android:permission="android.permission.DUMP" >
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+140                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+143                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+146                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+149                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yansaputra/.gradle/caches/transforms-3/eb86424542c17c0846a35855d07fa28f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+150            </intent-filter>
+151        </receiver>
+152    </application>
+153
+154</manifest>

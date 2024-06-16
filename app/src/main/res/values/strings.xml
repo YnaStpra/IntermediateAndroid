@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Story App Yan</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="title_welcome_page">Selamat datang di Story App Yan</string>
+    <string name="not_valid_data">DATA YANG DIMASUKKAN TIDAK VALID</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Nama</string>
+    <string name="logout">Keluar</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Upload</string>
+    <string name="deskription">Tambahkan Deskripsi</string>
+    <string name="empty_image_warning">tambahkan gambar terlebih dahulu</string>
+    <string name="detail">Detail Story</string>
+    <string name="add_story">Add Story</string>
+    <string name="tittle">Judul</string>
+    <string name="desc">Deskripsi</string>
+    <string name="insert_name">Input nama</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="retry">Try Again</string>
+    <string name="password_error">Minimal 8 karakter</string>
+    <string name="add_story_with_location">Add Story dengan lokasi</string>
+    <string name="story_image">story_image</string>
+</resources>

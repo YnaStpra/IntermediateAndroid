@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_activity_welcome.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/xml_data_extraction_rules.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_activity_upload.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_upload.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_activity_login.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/menu_menu.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/menu/menu.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_map.png.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/map.png"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_activity_maps.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_item_story.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/item_story.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_activity_register.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/xml_backup_rules.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_dicoding.jpeg.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/dicoding.jpeg"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/xml_file_paths.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_dicoding1.png.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/dicoding1.png"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_ic_baseline_lock_24.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_item_loading.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/item_loading.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/menu_map_options.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/menu/map_options.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_ic_add.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/layout_activity_detail_story.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/layout/activity_detail_story.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_logout.png.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/logout.png"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_ic_android.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/ic_android.xml"
+    },
+    {
+        "merged": "com.yan.storyappmap.app-merged_res-49:/drawable_ic_place_holder.xml.flat",
+        "source": "com.yan.storyappmap.app-main-51:/drawable/ic_place_holder.xml"
+    }
+]
